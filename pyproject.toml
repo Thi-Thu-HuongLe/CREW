@@ -16,6 +16,9 @@ authors = [
 ]
 dependencies = ["numpy>=2.0,<3"]
 
+[project.urls]
+Repository = "https://github.com/Thi-Thu-HuongLe/CREW"
+
 [project.scripts]
 crew-apply = "crew.cli:main"
 

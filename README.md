@@ -124,7 +124,6 @@ results reported in the manuscript.
 
 ## Citation and license
 
-Citation metadata are provided in `CITATION.cff`. Add the article DOI and GitHub
-archival URL after they are available. The source-code license still requires
-author confirmation; see `LICENSE_SELECTION_REQUIRED.md`. PNU-NOMV is a separate
-dataset released under CC BY 4.0.
+Citation metadata are provided in `CITATION.cff`. Add the article DOI and
+archival DOI after they are available. The CREW source code is released under
+the Apache License 2.0. PNU-NOMV is a separate dataset released under CC BY 4.0.

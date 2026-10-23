@@ -4,6 +4,8 @@ title: "CREW"
 type: software
 version: 1.0.0
 date-released: 2026-10-23
+repository-code: "https://github.com/Thi-Thu-HuongLe/CREW"
+license: Apache-2.0
 authors:
   - family-names: Le
     given-names: Thi-Thu-Huong
