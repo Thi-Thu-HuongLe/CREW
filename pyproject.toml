@@ -14,7 +14,10 @@ authors = [
   {name = "Howon Kim"},
   {name = "Sohaeng Lee"},
 ]
-dependencies = ["numpy>=2.0,<3"]
+dependencies = [
+  "numpy>=2.0,<3",
+  "tomli>=2.0.1; python_version < '3.11'",
+]
 
 [project.urls]
 Repository = "https://github.com/Thi-Thu-HuongLe/CREW"
