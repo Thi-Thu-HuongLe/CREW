@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use CREW or this implementation, please cite the associated article."
+title: "CREW"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+authors:
+  - family-names: Le
+    given-names: Thi-Thu-Huong
+    affiliation: Pusan National University
+  - family-names: Jeong
+    given-names: Hoekwang
+    affiliation: Pusan National University
+  - family-names: Kim
+    given-names: Howon
+    affiliation: Pusan National University
+  - family-names: Lee
+    given-names: Sohaeng
+    affiliation: Pusan National University
+keywords:
+  - early fault warning
+  - condition monitoring
+  - motor vibration
+  - causal EWMA
+  - one-class learning

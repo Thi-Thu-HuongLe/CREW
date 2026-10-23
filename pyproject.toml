@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crew-early-warning"
+version = "1.0.0"
+description = "Causal Robust EWMA Warning for Leakage-Safe One-Class Early Fault Warning"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Thi-Thu-Huong Le"},
+  {name = "Hoekwang Jeong"},
+  {name = "Howon Kim"},
+  {name = "Sohaeng Lee"},
+]
+dependencies = ["numpy>=2.0,<3"]
+
+[project.scripts]
+crew-apply = "crew.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}

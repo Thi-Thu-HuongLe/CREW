@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data and generated experiment artifacts
+Dataset/
+data/
+**/outputs/
+**/continuous_features/
+results/generated/
+
+# Large numerical artifacts and archives
+*.npy
+*.npz
+*.dat
+*.rar
+*.zip
+*.tar
+*.gz
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
